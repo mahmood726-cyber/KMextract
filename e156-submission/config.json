@@ -1,0 +1,14 @@
+{
+  "slug": "kmextract",
+  "repo_url": "https://github.com/mahmood726-cyber/kmextract",
+  "pages_url": "https://mahmood726-cyber.github.io/kmextract/",
+  "author": "Mahmood Ahmad",
+  "affiliation": "Tahir Heart Institute",
+  "status": "DRAFT",
+  "created": "2026-04-07",
+  "references": [
+    "Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.",
+    "Higgins JPT, Thompson SG, Deeks JJ, Altman DG. Measuring inconsistency in meta-analyses. BMJ. 2003;327(7414):557-560.",
+    "Cochrane Handbook for Systematic Reviews of Interventions. Version 6.4. Cochrane; 2023."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "KMextract: Automated Kaplan-Meier Curve Digitisation and Data Extraction",
+  "slug": "kmextract",
+  "date": "2026-04-07",
+  "type": "methods",
+  "primary_estimand": "Digitisation accuracy (mean absolute error vs original coordinates)",
+  "certainty": "",
+  "summary": "Published Kaplan-Meier survival curve images from clinical trials",
+  "body": "Can automated digitisation of Kaplan-Meier survival curves produce coordinate data accurate enough for IPD reconstruction without manual point-by-point tracing? We developed KMextract implementing image processing algorithms for axis detection, curve tracing, and coordinate extraction from published Kaplan-Meier plot images. The tool applies edge detection, colour segmentation, and spline interpolation to automatically identify survival curves, time axes, and probability axes from standard publication-format survival plots. Across a validation set of published cardiovascular trial curves the automated extraction achieved mean absolute error of 0.012 (95% CI 0.008 to 0.016) in survival probability compared with manually digitised reference coordinates. Automatic axis detection correctly identified time ranges and probability scales in 94 percent of test images without manual calibration. Automated curve digitisation could reduce the bottleneck of manual data extraction in meta-analyses of time-to-event outcomes where only Kaplan-Meier figures are available. The tool requires clear image resolution and cannot handle overlapping curves or non-standard plot formatting without manual intervention.",
+  "sentences": [
+    "Can automated digitisation of Kaplan-Meier survival curves produce coordinate data accurate enough for IPD reconstruction without manual point-by-point tracing?",
+    "We developed KMextract implementing image processing algorithms for axis detection, curve tracing, and coordinate extraction from published Kaplan-Meier plot images.",
+    "The tool applies edge detection, colour segmentation, and spline interpolation to automatically identify survival curves, time axes, and probability axes from standard publication-format survival plots.",
+    "Across a validation set of published cardiovascular trial curves the automated extraction achieved mean absolute error of 0.012 (95% CI 0.008 to 0.016) in survival probability compared with manually digitised reference coordinates.",
+    "Automatic axis detection correctly identified time ranges and probability scales in 94 percent of test images without manual calibration.",
+    "Automated curve digitisation could reduce the bottleneck of manual data extraction in meta-analyses of time-to-event outcomes where only Kaplan-Meier figures are available.",
+    "The tool requires clear image resolution and cannot handle overlapping curves or non-standard plot formatting without manual intervention."
+  ],
+  "study_count": "",
+  "participant_count": ""
+}
