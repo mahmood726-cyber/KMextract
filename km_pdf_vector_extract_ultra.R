@@ -480,10 +480,11 @@ find_axis_lines <- function(lines, len_min = CONFIG$AXIS_MIN_LENGTH) {
   if (!nrow(lines)) return(list(h=tibble(), v=tibble()))
   lines <- lines %>%
     dplyr::transmute(
-      x1 = pmin(x1, x2), y1 = pmin(y1, y2),
-      x2 = pmax(x1, x2), y2 = pmax(y1, y2),
+      x1n = pmin(x1, x2), y1n = pmin(y1, y2),
+      x2n = pmax(x1, x2), y2n = pmax(y1, y2),
       stroke, sw, dash
     ) %>%
+    dplyr::rename(x1 = x1n, y1 = y1n, x2 = x2n, y2 = y2n) %>%
     dplyr::mutate(
       x1r = round(x1, 2), y1r = round(y1, 2),
       x2r = round(x2, 2), y2r = round(y2, 2)
